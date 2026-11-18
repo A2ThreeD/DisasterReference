@@ -15,6 +15,7 @@ Open the [first readings by task and category](docs/start-here.md) for the initi
 - [Wikipedia CSV](catalog/wikipedia.csv) lists a focused set of background articles by category.
 - [Maintainer review log](catalog/reviews.csv) records confirmed decisions to keep, update, remove, or promote documents.
 - [Download and conversion tools](tools/README.md) provide a local workflow for HTML, PDF, Markdown, TXT, EPUB, and device-sized PDFs.
+- [Local PDF library storage](output/pdf/README.md) describes the category folders, index, and export report.
 - [Extraction specification](docs/extraction.md) defines the source and rights information to include in offline conversions.
 - [Catalog schema](docs/catalog-schema.md) explains categories and how to add records.
 - [Source review](docs/source-review.md) tracks the six comparison projects and what their public material establishes.

@@ -3,4 +3,5 @@
 .DS_Store
 /build/
 /downloads/
+/.venv/
 __pycache__/

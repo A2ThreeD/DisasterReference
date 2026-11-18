@@ -1,0 +1,6 @@
+# DisasterReference
+# Copyright (c) 2026 Aaron Morris / A2ThreeD.
+# Repository and project information: README.md
+trafilatura==2.3.1
+pypandoc_binary==1.17
+typst==0.15.2

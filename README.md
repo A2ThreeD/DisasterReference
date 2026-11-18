@@ -6,10 +6,16 @@ The first release will aim for a short, broadly applicable list, with additional
 
 ## Start here
 
+Use the [recommended download list](catalog/recommended.csv) to save the starter library in one pass. It is the entry point for both readers and AI agents. See [download instructions](docs/downloading.md) for file handling and fallbacks.
+
 Open the [first readings by task and category](docs/start-here.md) for the initial browsing draft. Each category aims for three to five concise core documents, with room for fewer when the evidence supports a shorter list. Larger references are available below the first readings.
 
 - [Resources CSV](catalog/resources.csv) records titles, descriptions, topics, links, formats, editions, and review status.
 - [Evidence CSV](catalog/evidence.csv) links each resource to the sources that recommend or discuss it.
+- [Wikipedia CSV](catalog/wikipedia.csv) lists a focused set of background articles by category.
+- [Maintainer review log](catalog/reviews.csv) records confirmed decisions to keep, update, remove, or promote documents.
+- [Download and conversion tools](tools/README.md) provide a local workflow for HTML, PDF, Markdown, TXT, EPUB, and device-sized PDFs.
+- [Extraction specification](docs/extraction.md) defines the source and rights information to include in offline conversions.
 - [Catalog schema](docs/catalog-schema.md) explains categories and how to add records.
 - [Source review](docs/source-review.md) tracks the six comparison projects and what their public material establishes.
 - [Editorial method](docs/editorial-method.md) explains how candidates are compared and how the core list is selected.

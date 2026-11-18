@@ -14,7 +14,7 @@ One row represents a reference in its reviewed edition and language. Choose the 
 | `category` | Primary topic slug from the table below. |
 | `resource_type` | Content type such as `checklist`, `guide`, `manual`, `reference`, `map`, or `collection`. |
 | `publisher` | Original publishing organization or author. |
-| `source_url` | Canonical publisher page for the resource. |
+| `source_url` | Canonical publisher page, or a documented access page for a historical or archived resource. |
 | `asset_url` | Optional direct download URL for the chosen copy. |
 | `format` | Format of the asset URL when present, otherwise of the source URL. Use `html`, `pdf`, `zim`, `epub`, `txt`, `markdown`, `pmtiles`, or `other`. |
 | `language` | Language tag such as `en` or `es`. |
@@ -45,6 +45,40 @@ Each row records an observation about one resource from one source. Add separate
 | `notes` | Brief paraphrase, edition ambiguity, or relationship to another evidence source. |
 
 Use all fields except `independence_group` and `notes` for every evidence record. For evidence of a recommendation to count toward the core tier, its independence group must be established.
+
+## Recommended downloads
+
+One row per item in the starter download set. The manifest is self-contained for download agents. Keep its title, category, jurisdiction, format, and URLs in sync with the resource catalog. Use reviewed access copies for fallbacks and document the edition or snapshot.
+
+| Column | Meaning |
+| --- | --- |
+| `resource_id` | Matching ID in the resources CSV. |
+| `phase` | `prepare` or `reference`. Preparation rows come first. |
+| `category` | Primary topic slug from the table below. |
+| `title` | Document title. |
+| `jurisdiction` | Geographic scope from the resource record. |
+| `format` | Expected format of the downloaded document. |
+| `url` | Preferred direct download or HTML page URL. |
+| `fallback_url` | Optional same-format access copy to try if the preferred URL fails. |
+| `filename` | Suggested local basename with the appropriate file extension. |
+
+## Wikipedia articles
+
+One row per article selected for background reading. Include a task or question the article helps with. Prefer primary sources for instructions with safety consequences. Save a specific revision permalink when extracting an article.
+
+| Column | Meaning |
+| --- | --- |
+| `id` | Stable article ID prefixed with `wiki-`. |
+| `category` | Primary topic slug from the table below. |
+| `title` | Article title. |
+| `article_url` | Canonical Wikipedia article URL. |
+| `use_case` | Task or question the article helps with. |
+| `language` | Language tag for the Wikipedia edition. |
+| `checked_on` | Date the URL and topic fit were checked. |
+
+## Human review
+
+The [review log](../catalog/reviews.csv) stores dated review decisions keyed by resource ID. See [maintainer review](reviewing.md) for its fields and the update workflow.
 
 ## Topic categories
 

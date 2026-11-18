@@ -1,0 +1,29 @@
+resource_id,phase,category,title,jurisdiction,format,url,fallback_url,filename
+ready-gov-build-a-kit,prepare,survival-shelter,Build A Kit,US,html,https://www.ready.gov/kit,https://kiwix.tader.nl/content/www.ready.gov_en_2024-12/www.ready.gov/kit,ready-gov-build-a-kit.html
+red-cross-survival-kit,prepare,survival-shelter,What Do You Need In a Survival Kit?,US,html,https://www.redcross.org/get-help/how-to-prepare-for-emergencies/survival-kit-supplies.html,,red-cross-survival-kit.html
+red-cross-make-a-plan,prepare,survival-shelter,Disaster Preparedness Plan,US,html,https://www.redcross.org/get-help/how-to-prepare-for-emergencies/make-a-plan.html,,red-cross-make-a-plan.html
+fema-family-comms-plan,prepare,communication,Family Emergency Communication Plan,US,pdf,https://www.weather.gov/media/afc/Hydro/FloodSafety/family-communication-plan_fillable-card.pdf,,fema-family-comms-plan.pdf
+fema-emergency-financial-first-aid-kit,prepare,survival-shelter,Emergency Financial First Aid Kit,US,pdf,https://operationhope.org/wp-content/uploads/2024/10/EFFAK.pdf,,fema-emergency-financial-first-aid-kit.pdf
+fema-are-you-ready,prepare,survival-shelter,Are You Ready? An In-Depth Guide to Citizen Preparedness,US,pdf,https://www.santacruzcountyca.gov/Portals/0/County/CAO/pdfs/PreparednessInfoEnglish/are-you-ready-guide.pdf,,fema-are-you-ready.pdf
+red-cross-first-aid-steps,reference,medical,First Aid Steps,US,html,https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps,,red-cross-first-aid-steps.html
+red-cross-cpr-steps,reference,medical,CPR Steps,US,html,https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps,,red-cross-cpr-steps.html
+red-cross-severe-bleeding,reference,medical,Bleeding (Life-Threatening External),US,html,https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external,,red-cross-severe-bleeding.html
+cdc-emergency-water-supply,reference,food-water,How to Create an Emergency Water Supply,US,html,https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html,,cdc-emergency-water-supply.html
+cdc-emergency-water-fact-sheet,reference,food-water,Make Water Safe During an Emergency,US,pdf,https://www.cdc.gov/water-emergency/media/pdfs/make-water-safe-during-emergency-p.pdf,,cdc-emergency-water-fact-sheet.pdf
+foodsafety-gov-outage-food,reference,food-water,Food Safety During Power Outage,US,pdf,https://www.in.gov/localhealth/portercounty/files/Food-Safety-During-Power-Outage-_-FoodSafety.gov.pdf,,foodsafety-gov-outage-food.pdf
+red-cross-extreme-heat,reference,survival-shelter,Extreme Heat Safety,US,html,https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/extreme-heat-safety.html,,red-cross-extreme-heat.html
+red-cross-winter-storm-checklist,reference,survival-shelter,Winter Storm Preparedness Checklist,US,pdf,https://www.redcross.org/content/dam/redcross/get-help/pdfs/winter-storm/EN_Winter-Storm-Preparedness-Checklist.pdf,,red-cross-winter-storm-checklist.pdf
+epa-flooded-homes,reference,repair,Flooded Homes Cleanup Guidance,US,html,https://www.epa.gov/flooded-homes,,epa-flooded-homes.html
+phmsa-pipeline-leak,reference,repair,Pipeline Leak Recognition and What to Do,US,html,https://www.phmsa.dot.gov/safety-awareness/pipeline/pipeline-leak-recognition-and-what-do,,phmsa-pipeline-leak.html
+esfi-water-damaged-electrical-equipment,reference,repair,Water-Damaged Electrical Equipment,US,html,https://www.esfi.org/water-damaged-electrical-equipment/,,esfi-water-damaged-electrical-equipment.html
+noaa-weather-radio,reference,communication,NOAA Weather Radio,US,html,https://www.weather.gov/nwr/,,noaa-weather-radio.html
+nws-wireless-emergency-alerts,reference,communication,Weather Warnings on the Go!,US,html,https://www.weather.gov/wrn/wea,,nws-wireless-emergency-alerts.html
+cdc-power-outage,reference,power-energy,What to Do to Protect Yourself During a Power Outage,US,html,https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html,,cdc-power-outage.html
+red-cross-power-outage,reference,power-energy,Power Outage Safety,US,html,https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/power-outage.html,,red-cross-power-outage.html
+fda-home-medical-devices-power-outage,reference,power-energy,Home Use Devices: How to Prepare for and Handle Power Outages,US,pdf,https://www.fda.gov/media/80782/download,,fda-home-medical-devices-power-outage.pdf
+usgs-download-topo-maps,reference,offline-maps,"How do I find, download, or order topographic maps?",US,html,https://www.usgs.gov/faqs/how-do-i-find-download-or-order-topographic-maps,,usgs-download-topo-maps.html
+usgs-us-topo-symbols,reference,offline-maps,US Topo Cartographic Specifications: Map Symbol Guide,US,html,https://www.usgs.gov/ngp-standards-and-specifications/us-topo-cartographic-specifications-map-symbol-guide,,usgs-us-topo-symbols.html
+nps-compass-course,reference,offline-maps,Compass Course,US,html,https://www.nps.gov/teachers/classrooms/compass-course.htm,,nps-compass-course.html
+fema-cert-basic-training,reference,education-skills,CERT Basic Training Participant Manual,US,pdf,https://www.govinfo.gov/content/pkg/GOVPUB-HS5_100-PURL-gpo185734/pdf/GOVPUB-HS5_100-PURL-gpo185734.pdf,,fema-cert-basic-training.pdf
+acs-stop-the-bleed-training,reference,education-skills,Get Trained: Stop the Bleed,US,html,https://www.stopthebleed.org/get-trained/,,acs-stop-the-bleed-training.html
+cdc-ready-wrigley-emergency-kit,reference,education-skills,Ready Wrigley Emergency Kit Activity Booklet,US,pdf,https://www.cdc.gov/natural-disasters/media/pdfs/2026/02/RWBuildsEmergency-Kit-Booklet-P.pdf,,cdc-ready-wrigley-emergency-kit.pdf

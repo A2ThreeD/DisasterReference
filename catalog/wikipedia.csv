@@ -1,0 +1,17 @@
+id,category,title,article_url,use_case,language,checked_on
+wiki-first-aid,medical,First aid,https://en.wikipedia.org/wiki/First_aid,Recognize common first-aid terminology.,en,2026-11-18
+wiki-hypothermia,medical,Hypothermia,https://en.wikipedia.org/wiki/Hypothermia,Understand cold exposure and risk factors.,en,2026-11-18
+wiki-portable-water-purification,food-water,Portable water purification,https://en.wikipedia.org/wiki/Portable_water_purification,Understand how portable treatment methods differ.,en,2026-11-18
+wiki-food-preservation,food-water,Food preservation,https://en.wikipedia.org/wiki/Food_preservation,Look up preservation methods and terminology.,en,2026-11-18
+wiki-emergency-shelter,survival-shelter,Emergency shelter,https://en.wikipedia.org/wiki/Emergency_shelter,Understand the kinds of shelter available during displacement.,en,2026-11-18
+wiki-emergency-management,survival-shelter,Emergency management,https://en.wikipedia.org/wiki/Emergency_management,"Understand mitigation, preparedness, response, and recovery.",en,2026-11-18
+wiki-multimeter,repair,Multimeter,https://en.wikipedia.org/wiki/Multimeter,Identify terminology and functions for electrical troubleshooting.,en,2026-11-18
+wiki-soldering,repair,Soldering,https://en.wikipedia.org/wiki/Soldering,Understand basic equipment and repair terminology.,en,2026-11-18
+wiki-noaa-weather-radio,communication,NOAA Weather Radio,https://en.wikipedia.org/wiki/NOAA_Weather_Radio,Understand how U.S. weather alert broadcasts are organized.,en,2026-11-18
+wiki-family-radio-service,communication,Family Radio Service,https://en.wikipedia.org/wiki/Family_Radio_Service,Understand U.S. short-range radio terminology.,en,2026-11-18
+wiki-carbon-monoxide-poisoning,power-energy,Carbon monoxide poisoning,https://en.wikipedia.org/wiki/Carbon_monoxide_poisoning,Understand why combustion hazards matter during power outages.,en,2026-11-18
+wiki-uninterruptible-power-supply,power-energy,Uninterruptible power supply,https://en.wikipedia.org/wiki/Uninterruptible_power_supply,Understand backup power terminology and distinctions.,en,2026-11-18
+wiki-topographic-map,offline-maps,Topographic map,https://en.wikipedia.org/wiki/Topographic_map,Understand how maps depict terrain and elevation.,en,2026-11-18
+wiki-orienteering,offline-maps,Orienteering,https://en.wikipedia.org/wiki/Orienteering,Find background on map and compass navigation practice.,en,2026-11-18
+wiki-community-emergency-response-team,education-skills,Community emergency response team,https://en.wikipedia.org/wiki/Community_emergency_response_team,Understand community emergency response training.,en,2026-11-18
+wiki-incident-command-system,education-skills,Incident Command System,https://en.wikipedia.org/wiki/Incident_Command_System,Understand incident response roles and terminology.,en,2026-11-18

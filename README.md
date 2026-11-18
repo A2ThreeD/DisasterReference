@@ -6,14 +6,17 @@ The first release will aim for a short, broadly applicable list, with additional
 
 ## Start here
 
+Open the [first readings by task and category](docs/start-here.md) for the initial browsing draft. Each category aims for three to five concise core documents, with room for fewer when the evidence supports a shorter list. Larger references are available below the first readings.
+
 - [Resources CSV](catalog/resources.csv) records titles, descriptions, topics, links, formats, editions, and review status.
 - [Evidence CSV](catalog/evidence.csv) links each resource to the sources that recommend or discuss it.
 - [Catalog schema](docs/catalog-schema.md) explains categories and how to add records.
+- [Source review](docs/source-review.md) tracks the six comparison projects and what their public material establishes.
 - [Editorial method](docs/editorial-method.md) explains how candidates are compared and how the core list is selected.
 - [Roadmap](docs/roadmap.md) covers the initial research and offline exports.
 - [Contributor and agent instructions](AGENTS.md) apply to work in this repository.
 
-The CSVs currently contain headers only. Source intake starts with the projects and sites supplied by the maintainer. The repository catalogs third-party references by link. Rights for source documents and derived exports must be tracked per resource.
+The initial catalog contains publisher-checked candidates and evidence from public project material. The core tier is pending editorial review. The repository catalogs third-party references by link. Rights for source documents and derived exports must be tracked per resource.
 
 ## Contribute a source
 

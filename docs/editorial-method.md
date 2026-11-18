@@ -13,7 +13,13 @@ Start with references that address common household needs across multiple disast
 
 A proposed core resource needs two confirmed independent groups explicitly recommending that work, plus maintainer review. Topic agreement helps prioritize research and identify gaps. It does not count as endorsement of a specific document. Edition uncertainty, substantive disagreement, and superseded guidance need a documented resolution before promotion.
 
+Aim for three to five core documents per category as the collection matures. Publish fewer where that covers the task or where stronger candidates still need review. Lead with the best concise guide for each distinct task. Link to the exact chapter, page, or checklist when a reader needs only part of a document. Put comprehensive manuals, collections, and ZIM archives after the first readings.
+
 Use the situational tier for reviewed references serving specific hazards, climates, jurisdictions, equipment, or skill levels. Record why each reviewed resource belongs in its tier. A category can have a gap while evidence is gathered. Prefer the smallest set that gives readers useful coverage.
+
+## Testing access
+
+For each category, try finding a specific answer from a phone and an e-ink reader while offline. A task label should lead to the relevant reading in at most two selections from the index. Check that search finds the guide using everyday terms. Open the saved copy with networking off and verify that the cited page, diagrams, tables, and warnings are present wherever they carry meaning. Keep archive search available for deeper questions.
 
 ## Keeping it current
 

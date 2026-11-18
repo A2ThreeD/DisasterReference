@@ -1,6 +1,6 @@
 # First readings for an emergency library
 
-This starter list covers all eight PrepperCache-aligned categories with English-language, primarily U.S. sources. These are the documents in the [recommended download manifest](../catalog/recommended.csv). [Maintainer review](reviewing.md) records which documents have been approved, revised, or removed.
+This starter list covers all eight PrepperCache-aligned categories with English-language, primarily U.S. sources. Use the [recommended download manifest](../catalog/recommended.csv) to save the starter documents. Historical references are labeled in the guide. [Maintainer review](reviewing.md) records which documents have been approved, revised, or removed.
 
 ## Prepare Beforehand
 
@@ -22,6 +22,11 @@ Start with a household kit and a plan for evacuation, sheltering, and staying in
 - Assess someone who is hurt or ill. [Red Cross First Aid Steps](https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps)
 - Find CPR instructions. [Red Cross CPR Steps](https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps)
 - Find guidance for severe bleeding. [Red Cross Life-Threatening External Bleeding](https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external)
+
+**Army field references**
+
+- Consult the Army's 2026 first-aid and casualty-care manual for field reference. [ATP 4-02.11 (PDF)](https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN46159-ATP_4-02.11-000-WEB-1.pdf) · [Survival Codex access copy](https://survivalcodex.com/cdn/shop/files/survival-codex-library-atp-4-02-11-casualty-response-tccc-first-aid_dcef2c2a-a4ee-4dac-b7b0-1df583182797.pdf?v=7408515831674510452)
+- Look up the older joint-service first-aid manual for historical context. [FM 4-25.11 (PDF, 2002 with Change 1)](https://survivalcodex.com/cdn/shop/files/survival-codex-library-fm-4-25-11-first-aid.pdf?v=8583007396900567922)
 
 ### Food and Water
 

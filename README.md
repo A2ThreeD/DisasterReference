@@ -1,8 +1,8 @@
 # DisasterReference
 
-DisasterReference is a public catalog of documents worth keeping offline for emergencies. It compares independent preparedness projects, public agencies, and other credible sources to find the references most useful before, during, and after a disaster.
+DisasterReference is built to be a small repository of quality review information that someone would use for core Disaster Prep and Survival information. This repository and its tools are meant to take publicly available sourced information and create printable PDF and text documents that can be used on any device.
 
-The first release will aim for a short, broadly applicable list, with additional references for specific hazards, regions, and equipment. Each recommendation will point back to the publisher and show the evidence behind its inclusion. The catalog will use categories familiar to [PrepperCache](https://github.com/A2ThreeD/PrepperCache) so a future integration can reuse the metadata.
+The first release will aim for a short, broadly applicable list, with additional references for specific hazards, regions, and equipment. Each recommendation will point back to the publisher and show the evidence behind its inclusion. The catalog will use categories familiar to [PrepperCache](https://github.com/A2ThreeD/PrepperCache) so that I can integrate these documents into it as well.
 
 ## Start here
 

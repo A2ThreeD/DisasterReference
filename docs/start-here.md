@@ -84,6 +84,7 @@ Start with a household kit and a plan for evacuation, sheltering, and staying in
 
 ## Additional references
 
+- **ZIM archives.** The [shared archive catalog](zim-library.md) covers larger offline libraries used across preparedness projects.
 - **Wikipedia.** [Selected background articles](../catalog/wikipedia.csv) are grouped by the same eight categories. Use the primary readings above for decisions about health, water, food, or electrical safety.
 - **Medical & First Aid.** [Defense Health Agency cold-weather injury guidance](https://www.army.mil/article/282512/cold_weather_injuries_peak_in_january_february) is supplemental reading for cold exposure.
 - **Offline Maps.** The Army's [Map Reading and Land Navigation](https://survivalcodex.com/pages/library/fm-3-25-26-land-navigation) is a historical reference for map symbols, grids, scale, and compass skills. Its GPS chapter reflects the 2001 edition.

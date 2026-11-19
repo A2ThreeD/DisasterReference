@@ -12,6 +12,7 @@ Open the [first readings by task and category](docs/start-here.md) for the initi
 
 - [Resources CSV](catalog/resources.csv) records titles, descriptions, topics, links, formats, editions, and review status.
 - [Evidence CSV](catalog/evidence.csv) links each resource to the sources that recommend or discuss it.
+- [Shared ZIM archive catalog](docs/zim-library.md) records PrepperCache archives with overlap evidence from other projects.
 - [Wikipedia CSV](catalog/wikipedia.csv) lists a focused set of background articles by category.
 - [Maintainer review log](catalog/reviews.csv) records confirmed decisions to keep, update, remove, or promote documents.
 - [Download and conversion tools](tools/README.md) provide a local workflow for HTML, PDF, Markdown, TXT, EPUB, and device-sized PDFs.

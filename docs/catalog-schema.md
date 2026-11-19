@@ -4,7 +4,7 @@ CSV files use UTF-8, a comma delimiter, a single header row, and standard double
 
 ## Resources
 
-One row represents a reference in its reviewed edition and language. Choose the best verified copy for offline use or the publisher's web page if that is the only confirmed format. Record materially different editions or translations separately when they need independent review.
+One row represents a reference in its reviewed edition and language. Prefer the publisher's PDF or official printable edition for offline use. Record the publisher's web page when a publisher PDF is unavailable. Record materially different editions or translations separately when they need independent review.
 
 | Column | Meaning |
 | --- | --- |

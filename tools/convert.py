@@ -3,7 +3,7 @@
 # Copyright (c) 2026 Aaron Morris / A2ThreeD.
 # Repository and project information: README.md
 
-"""Extract a local source to Markdown and optionally render it for offline reading."""
+"""Extract a local source once and export it for offline reading."""
 
 import argparse
 from datetime import date, datetime, timezone
@@ -20,6 +20,14 @@ import trafilatura
 import typst
 
 PDF_MODES = ("pdf", "pdf-phone", "pdf-eink")
+OUTPUT_ENDINGS = {
+    "markdown": ".md",
+    "txt": ".txt",
+    "epub": ".epub",
+    "pdf": ".pdf",
+    "pdf-phone": "-phone.pdf",
+    "pdf-eink": "-eink.pdf",
+}
 PDF_LAYOUT = Path(__file__).with_name("pdf_layout.typ")
 REDISTRIBUTION_NOTES = {
     "permitted": "Redistribution is permitted under the recorded conditions.",
@@ -121,13 +129,7 @@ def sanitize_document(node):
     return node
 
 
-def render_pdf(payload, provenance, mode, workdir, destination, has_body):
-    content = pypandoc.convert_text(
-        payload, "typst", format="json",
-        extra_args=["--standalone", "--syntax-highlighting=none", "--template", str(PDF_LAYOUT)],
-    )
-    document = workdir / "document.typ"
-    document.write_text(content, encoding="utf-8")
+def render_pdf(document, provenance, mode, workdir, destination, has_body):
     retrieved = datetime.fromisoformat(provenance["retrieved_at"]).astimezone(timezone.utc)
     converted = datetime.fromisoformat(provenance["extracted_at"]).astimezone(timezone.utc)
     dates = f"Retrieved {retrieved:%b %d, %Y}. Converted {converted:%b %d, %Y} (UTC)."
@@ -157,61 +159,127 @@ def render_pdf(payload, provenance, mode, workdir, destination, has_body):
     typst.compile(document, output=destination, root=workdir, sys_inputs=inputs)
 
 
-def render(body, provenance, mode, workdir, destination):
-    pdf = mode in PDF_MODES
-    markdown = body
-    if not pdf:
+def parse_markdown(markdown):
+    reader = "markdown-raw_html-raw_tex-raw_attribute-yaml_metadata_block"
+    parsed = pypandoc.convert_text(markdown, "json", format=reader, extra_args=["--sandbox"])
+    return sanitize_document(json.loads(parsed))
+
+
+def render_outputs(body, provenance, workdir, destinations):
+    if any(mode in destinations for mode in ("markdown", "txt", "epub")):
         fields = [
             f"**{label}** — {literal(' '.join(provenance[key].split()))}"
             for key, label in HEADER_FIELDS.items()
         ]
-        header = "\n\n".join(fields)
-        markdown = f"{header}\n\n---\n\n{body}"
-    if mode == "markdown":
-        destination.write_text(markdown.rstrip() + "\n", encoding="utf-8")
+        header = "\n\n".join(fields) + "\n\n---\n\n"
+        if "markdown" in destinations:
+            markdown = header + body
+            destinations["markdown"].write_text(markdown.rstrip() + "\n", encoding="utf-8")
+    if destinations.keys() == {"markdown"}:
         return
-    safe_reader = "markdown-raw_html-raw_tex-raw_attribute-yaml_metadata_block"
-    parsed = pypandoc.convert_text(markdown, "json", format=safe_reader, extra_args=["--sandbox"])
-    document = sanitize_document(json.loads(parsed))
-    payload = json.dumps(document, ensure_ascii=False)
-    if mode == "txt":
-        text = pypandoc.convert_text(payload, "plain", format="json", extra_args=["--sandbox", "--wrap=none"])
-        destination.write_text(text, encoding="utf-8")
-    elif mode == "epub":
-        pypandoc.convert_text(
-            payload, "epub3", format="json", outputfile=str(destination),
-            extra_args=["--metadata", f"title={provenance['title']}"],
+
+    document = parse_markdown(body)
+    if "txt" in destinations or "epub" in destinations:
+        # Keep the same shared article structure and add the visible metadata for reflowable outputs.
+        metadata = parse_markdown(header)
+        blocks = metadata["blocks"] + document["blocks"]
+        payload = json.dumps({**document, "blocks": blocks}, ensure_ascii=False)
+        if "txt" in destinations:
+            plain = pypandoc.convert_text(
+                payload, "plain", format="json", extra_args=["--sandbox", "--wrap=none"],
+            )
+            destinations["txt"].write_text(plain, encoding="utf-8")
+        if "epub" in destinations:
+            pypandoc.convert_text(
+                payload, "epub3", format="json", outputfile=str(destinations["epub"]),
+                extra_args=["--metadata", f"title={provenance['title']}"],
+            )
+
+    pdf_modes = [mode for mode in PDF_MODES if mode in destinations]
+    if pdf_modes:
+        # The same Typst document is compiled against each page profile.
+        source = pypandoc.convert_text(
+            json.dumps(document, ensure_ascii=False), "typst", format="json",
+            extra_args=["--standalone", "--syntax-highlighting=none", "--template", str(PDF_LAYOUT)],
         )
-    else:
-        render_pdf(payload, provenance, mode, workdir, destination, bool(body.strip()))
+        typst_document = workdir / "document.typ"
+        typst_document.write_text(source, encoding="utf-8")
+        for mode in pdf_modes:
+            render_pdf(typst_document, provenance, mode, workdir, destinations[mode], bool(body.strip()))
+
+
+def render(body, provenance, mode, workdir, destination):
+    render_outputs(body, provenance, workdir, {mode: destination})
+
+
+def write_provenance(destination, provenance):
+    destination.write_text(json.dumps(provenance, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def export_bundle(body, provenance, workdir, destination, stem, original_pdf):
+    bundle = workdir / "bundle"
+    bundle.mkdir()
+    outputs = {mode: bundle / (stem + ending) for mode, ending in OUTPUT_ENDINGS.items()}
+    renders = outputs.copy()
+    if original_pdf is not None:
+        renders.pop("pdf").write_bytes(original_pdf)
+    render_outputs(body, provenance, workdir, renders)
+    record = {
+        **provenance,
+        "outputs": {
+            mode: {
+                "filename": path.name,
+                "kind": "original" if mode not in renders else "converted",
+            }
+            for mode, path in outputs.items()
+        },
+    }
+    write_provenance(bundle / (stem + ".provenance.json"), record)
+    bundle.rename(destination)
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("source", type=Path)
     parser.add_argument("--metadata", type=Path, required=True)
-    parser.add_argument("--format", choices=["markdown", "txt", "epub", *PDF_MODES], default="markdown")
-    parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--format", choices=OUTPUT_ENDINGS, help="Single-format export mode")
+    output = parser.add_mutually_exclusive_group(required=True)
+    output.add_argument("--output-dir", type=Path, help="New directory for all offline formats")
+    output.add_argument("--output", type=Path, help="Output file for a single format")
     args = parser.parse_args()
-    expected_suffix = {"markdown": ".md", "txt": ".txt", "epub": ".epub"}.get(args.format, ".pdf")
     suffix = args.source.suffix.lower()
-    if suffix not in {".htm", ".html", ".pdf"} or args.output.suffix.lower() != expected_suffix:
-        parser.error(f"Use a local HTML or PDF input and an output ending in {expected_suffix}.")
-    if args.source.resolve() == args.output.resolve():
-        parser.error("The output must be separate from the source.")
+    if suffix not in {".htm", ".html", ".pdf"}:
+        parser.error("Use a local HTML or PDF input.")
+    mode = args.format or "markdown"
+    destination = args.output_dir if args.output_dir is not None else args.output
+    if args.output_dir is not None:
+        if args.format:
+            parser.error("--format is only used with --output.")
+        if destination.exists() or destination.is_symlink():
+            parser.error("Choose a new directory for the bundle.")
+    else:
+        expected_suffix = Path("document" + OUTPUT_ENDINGS[mode]).suffix
+        if destination.suffix.lower() != expected_suffix:
+            parser.error(f"The selected format requires an output ending in {expected_suffix}.")
+        if args.source.resolve() == destination.resolve():
+            parser.error("The output must be separate from the source.")
     try:
         source = args.source.read_bytes()
         provenance = read_provenance(args.metadata, source)
-        args.output.parent.mkdir(parents=True, exist_ok=True)
-        with tempfile.TemporaryDirectory(dir=args.output.parent) as temporary:
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=destination.parent) as temporary:
             workdir = Path(temporary)
-            destination = workdir / f"converted{expected_suffix}"
             body = extract_markdown(suffix, source, workdir, provenance)
-            render(body, provenance, args.format, workdir, destination)
-            sidecar = workdir / "provenance.json"
-            sidecar.write_text(json.dumps(provenance, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-            destination.replace(args.output)
-            sidecar.replace(args.output.with_name(args.output.name + ".provenance.json"))
+            if args.output_dir is not None:
+                original_pdf = source if suffix == ".pdf" else None
+                export_bundle(body, provenance, workdir, destination, args.source.stem, original_pdf)
+            else:
+                output_file = workdir / f"converted{expected_suffix}"
+                render(body, provenance, mode, workdir, output_file)
+                sidecar = workdir / "provenance.json"
+                write_provenance(sidecar, provenance)
+                output_file.replace(destination)
+                sidecar.replace(destination.with_name(destination.name + ".provenance.json"))
     except (OSError, ValueError, RuntimeError, subprocess.SubprocessError) as exc:
         parser.exit(1, f"Conversion failed: {exc}\n")
     return 0

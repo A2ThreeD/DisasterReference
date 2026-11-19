@@ -25,7 +25,7 @@ Conditions: <required credit, license terms, or limits>
 
 - Use the original publisher's PDF or official print edition when it is available. Preserve its bytes, including its cover, pagination, graphics, and form fields. Record the publisher, download location, and checksum in the export report.
 - When the source only provides a web page, convert the verified HTML under the applicable reuse terms. Apply the library source page and footer to the conversion. Keep a source link in the report if the page cannot be converted with its necessary content intact.
-- Open every converted PDF with a source page headed **Disaster Reference Library**. Give the original document title the largest type. Put the author or publisher immediately below it and link to the canonical source.
+- Open every converted PDF with a source page headed **PrepperCache - Disaster Reference Library**. Give the original document title the largest type. Put the author or publisher immediately below it and link to the canonical source.
 - Use short labeled sections in plain language. **About this copy** identifies the source edition, retrieval and conversion dates, and any changes or omissions. **Source and reuse** describes attribution, reuse conditions, and the recorded redistribution decision. Link to an alternate retrieval site when used. Keep exact URLs, timestamps, checksums, and the complete rights record in the JSON provenance sidecar.
 - Put the document title, credited source, and sequential export page number in a legible footer on every page, including the source page. Body content starts after the provenance. On narrow layouts, lengthy provenance may continue onto another page before the body.
 
@@ -50,7 +50,7 @@ Pass a JSON object to [the conversion tool](../tools/README.md) with these strin
 }
 ```
 
-Copy retrieval details and the optional `sha256` from the download report. The tool checks any supplied hash against the source bytes. It generates the extraction timestamp and keeps a matching JSON sidecar.
+Copy retrieval details and the optional `sha256` from the download report. The tool checks any supplied hash against the source bytes. A single-format export writes its own provenance sidecar. A multi-format bundle records one extraction timestamp and lists each file, its format, and whether it is an original or a conversion in a shared provenance sidecar.
 
 ## Rights decisions
 

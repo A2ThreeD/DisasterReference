@@ -50,7 +50,7 @@
 }
 
 #block(spacing: cover-space)[
-  #text(size: if pocket { 8pt } else { 12pt }, weight: "semibold", fill: accent)[Disaster Reference Library]
+  #text(size: if pocket { 8pt } else { 12pt }, weight: "semibold", fill: accent)[PrepperCache - Disaster Reference Library]
   #v(cover-space)
   #text(size: title-size, weight: "bold", metadata.title)
   #linebreak()

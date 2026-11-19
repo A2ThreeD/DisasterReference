@@ -1,0 +1,42 @@
+{
+  "title": "How to Create an Emergency Water Supply",
+  "credit": "CDC",
+  "source_url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+  "retrieved_from": "https://portugues.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+  "edition": "CDC web page dated June 27, 2025",
+  "retrieved_at": "2026-11-19T02:35:53+00:00",
+  "sha256": "8320a10549004de36d4db4c91af40887ad0fe1012f2b9665df161100afce82fa",
+  "changes": "Agency article text, lists, cautions, and substantive captions reflowed. Site controls, illustration images, and styling were omitted. Source links are retained.",
+  "rights": "CDC-authored public-domain text under CDC agency materials terms: https://www.cdc.gov/other/agencymaterials.html",
+  "rights_checked_on": "2026-11-19",
+  "extraction": "permitted",
+  "redistribution": "permitted",
+  "conditions": "Source: CDC. The agency material is available free of charge from CDC. Use of this material does not imply endorsement by CDC, ATSDR, HHS, or the United States Government. The agency text is reproduced without substantive edits.",
+  "extracted_at": "2026-11-19T03:00:57+00:00",
+  "outputs": {
+    "markdown": {
+      "filename": "cdc-emergency-water-supply.md",
+      "kind": "converted"
+    },
+    "txt": {
+      "filename": "cdc-emergency-water-supply.txt",
+      "kind": "converted"
+    },
+    "epub": {
+      "filename": "cdc-emergency-water-supply.epub",
+      "kind": "converted"
+    },
+    "pdf": {
+      "filename": "cdc-emergency-water-supply.pdf",
+      "kind": "converted"
+    },
+    "pdf-phone": {
+      "filename": "cdc-emergency-water-supply-phone.pdf",
+      "kind": "converted"
+    },
+    "pdf-eink": {
+      "filename": "cdc-emergency-water-supply-eink.pdf",
+      "kind": "converted"
+    }
+  }
+}

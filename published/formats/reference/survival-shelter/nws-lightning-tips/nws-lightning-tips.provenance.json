@@ -1,0 +1,42 @@
+{
+  "title": "Lightning Tips",
+  "credit": "NOAA / National Weather Service",
+  "source_url": "https://www.weather.gov/safety/lightning-tips",
+  "retrieved_from": "https://www.weather.gov/safety/lightning-tips",
+  "edition": "Web snapshot at retrieval",
+  "retrieved_at": "2026-11-18T22:31:42+00:00",
+  "sha256": "3836535fc25711ea9319a33b3059f19b185d0b2550fa47cdc16f104f0afedd8a",
+  "changes": "Reformatted static guidance. Navigation, media, and live data are outside this text edition. Linked resources may require internet access. HTML main text extracted. Images, styling, and interactive content were omitted.",
+  "rights": "NWS-authored text is in the U.S. public domain under the NWS disclaimer: https://www.weather.gov/disclaimer",
+  "rights_checked_on": "2026-11-19",
+  "extraction": "permitted",
+  "redistribution": "permitted",
+  "conditions": "Credit NOAA and the National Weather Service. This independent reformatting is not an official NWS publication and implies no endorsement.",
+  "extracted_at": "2026-11-19T03:07:36+00:00",
+  "outputs": {
+    "markdown": {
+      "filename": "nws-lightning-tips.md",
+      "kind": "converted"
+    },
+    "txt": {
+      "filename": "nws-lightning-tips.txt",
+      "kind": "converted"
+    },
+    "epub": {
+      "filename": "nws-lightning-tips.epub",
+      "kind": "converted"
+    },
+    "pdf": {
+      "filename": "nws-lightning-tips.pdf",
+      "kind": "converted"
+    },
+    "pdf-phone": {
+      "filename": "nws-lightning-tips-phone.pdf",
+      "kind": "converted"
+    },
+    "pdf-eink": {
+      "filename": "nws-lightning-tips-eink.pdf",
+      "kind": "converted"
+    }
+  }
+}

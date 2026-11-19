@@ -43,6 +43,13 @@ Start with a household kit and a plan for evacuation, sheltering, and staying in
 - Prepare for extreme heat and find cooling options. [Red Cross Extreme Heat Safety](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/extreme-heat-safety.html)
 - Prepare for and shelter during winter storms. [Red Cross winter storm checklist (PDF)](https://www.redcross.org/content/dam/redcross/get-help/pdfs/winter-storm/EN_Winter-Storm-Preparedness-Checklist.pdf)
 
+**Find or make shelter**
+
+- Choose a safer site for an outdoor shelter. [NPS Finding and Setting Up a Campsite](https://www.nps.gov/subjects/camping/finding-and-setting-up-a-campsite.htm)
+- Build a temporary tarp or improvised shelter. [Scouting America Wilderness Survival, shelter section (PDF)](https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Wilderness%20Survival.pdf#page=25)
+- Keep a room warm during a heating outage. [Utah Emergency Management Shelter at Home in the Cold](https://dem.utah.gov/shelter-at-home-in-the-cold/)
+- Find a shelter that is open now during an evacuation. [Red Cross live shelter locator](https://www.redcross.org/get-help/disaster-relief-and-recovery-services/find-an-open-shelter.html)
+
 **Other weather hazards**
 
 - Check flood warnings and flood safety. [NWS Flood Safety Tips and Resources](https://www.weather.gov/safety/flood) · [During a flood](https://www.weather.gov/safety/flood-during)

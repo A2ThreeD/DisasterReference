@@ -1,0 +1,42 @@
+{
+  "title": "Flood Safety Tips and Resources",
+  "credit": "NOAA / National Weather Service",
+  "source_url": "https://www.weather.gov/safety/flood",
+  "retrieved_from": "https://www.weather.gov/safety/flood",
+  "edition": "Web snapshot at retrieval",
+  "retrieved_at": "2026-11-18T22:30:33+00:00",
+  "sha256": "b2b7682009ed1342fd4bfe4d855e51310b182819c5301689efeebb4d0d9c7ac1",
+  "changes": "Reformatted static guidance. Navigation, media, and live data are outside this text edition. Linked resources may require internet access. HTML main text extracted. Images, styling, and interactive content were omitted.",
+  "rights": "NWS-authored text is in the U.S. public domain under the NWS disclaimer: https://www.weather.gov/disclaimer",
+  "rights_checked_on": "2026-11-19",
+  "extraction": "permitted",
+  "redistribution": "permitted",
+  "conditions": "Credit NOAA and the National Weather Service. This independent reformatting is not an official NWS publication and implies no endorsement.",
+  "extracted_at": "2026-11-19T03:07:34+00:00",
+  "outputs": {
+    "markdown": {
+      "filename": "nws-flood-safety.md",
+      "kind": "converted"
+    },
+    "txt": {
+      "filename": "nws-flood-safety.txt",
+      "kind": "converted"
+    },
+    "epub": {
+      "filename": "nws-flood-safety.epub",
+      "kind": "converted"
+    },
+    "pdf": {
+      "filename": "nws-flood-safety.pdf",
+      "kind": "converted"
+    },
+    "pdf-phone": {
+      "filename": "nws-flood-safety-phone.pdf",
+      "kind": "converted"
+    },
+    "pdf-eink": {
+      "filename": "nws-flood-safety-eink.pdf",
+      "kind": "converted"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Carbon Monoxide (CO) Poisoning Basics",
+  "credit": "CDC",
+  "source_url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+  "retrieved_from": "https://portugues.cdc.gov/carbon-monoxide/about/index.html",
+  "edition": "CDC web page dated October 26, 2026",
+  "retrieved_at": "2026-11-19T02:35:53+00:00",
+  "sha256": "0283c21b685dec7c0c12e3790f0322002b79a59a02f5525f2d5ba098b5ccdaaf",
+  "changes": "Agency article text, lists, cautions, and substantive captions reflowed. Site controls, illustration images, and styling were omitted. Source links are retained.",
+  "rights": "CDC-authored public-domain text under CDC agency materials terms: https://www.cdc.gov/other/agencymaterials.html",
+  "rights_checked_on": "2026-11-19",
+  "extraction": "permitted",
+  "redistribution": "permitted",
+  "conditions": "Source: CDC. The agency material is available free of charge from CDC. Use of this material does not imply endorsement by CDC, ATSDR, HHS, or the United States Government. The agency text is reproduced without substantive edits.",
+  "extracted_at": "2026-11-19T03:00:58+00:00",
+  "outputs": {
+    "markdown": {
+      "filename": "cdc-carbon-monoxide-poisoning.md",
+      "kind": "converted"
+    },
+    "txt": {
+      "filename": "cdc-carbon-monoxide-poisoning.txt",
+      "kind": "converted"
+    },
+    "epub": {
+      "filename": "cdc-carbon-monoxide-poisoning.epub",
+      "kind": "converted"
+    },
+    "pdf": {
+      "filename": "cdc-carbon-monoxide-poisoning.pdf",
+      "kind": "converted"
+    },
+    "pdf-phone": {
+      "filename": "cdc-carbon-monoxide-poisoning-phone.pdf",
+      "kind": "converted"
+    },
+    "pdf-eink": {
+      "filename": "cdc-carbon-monoxide-poisoning-eink.pdf",
+      "kind": "converted"
+    }
+  }
+}

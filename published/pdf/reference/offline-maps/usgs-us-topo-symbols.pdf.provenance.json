@@ -1,0 +1,28 @@
+{
+  "title": "US Topo Cartographic Specifications: Map Symbol Guide",
+  "credit": "USGS",
+  "source_url": "https://www.usgs.gov/ngp-standards-and-specifications/us-topo-cartographic-specifications-map-symbol-guide",
+  "retrieved_from": "https://www.usgs.gov/ngp-standards-and-specifications/us-topo-cartographic-specifications-map-symbol-guide",
+  "edition": "Publisher web snapshot",
+  "retrieved_at": "2026-11-18T22:35:39+00:00",
+  "sha256": "583c7981dcb44829368ad2a4e1d154e484553c5cb05460f668c38a34e77ccd9e",
+  "changes": "USGS article text and links are included. The two full-size official symbol images are preserved on dedicated pages at the end.",
+  "rights": "USGS-authored text and graphics are U.S. public domain unless credited otherwise. https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+  "rights_checked_on": "2026-11-19",
+  "extraction": "permitted",
+  "redistribution": "permitted",
+  "conditions": "Credit the U.S. Geological Survey. Independent conversion without agency endorsement.",
+  "additional_sources": [
+    {
+      "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/media/images/US_Topo_Map_Symbols_Pg_1.png?itok=mICr0aFu",
+      "sha256": "207d36ccdab56e3907a78d10711688a1d104bb814b82059c26c9b0fae9335fc2",
+      "title": "USGS map symbol plate 1"
+    },
+    {
+      "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/media/images/US_Topo_Map_Symbols-Pg_2.png?itok=vATNRLzS",
+      "sha256": "26b4e3c3408538b71187d40463e6be48542c6e2ea47e050f184346ab47765e1f",
+      "title": "USGS map symbol plate 2"
+    }
+  ],
+  "extracted_at": "2026-11-19T03:08:44+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "What to Do During a Tornado",
+  "credit": "NOAA / National Weather Service",
+  "source_url": "https://www.weather.gov/safety/tornado-during",
+  "retrieved_from": "https://www.weather.gov/safety/tornado-during",
+  "edition": "Web snapshot at retrieval",
+  "retrieved_at": "2026-11-18T22:31:41+00:00",
+  "sha256": "1a898f247d90fe864002c27f5e3c5a258d6302e6c62f8b4a6625c691d2627884",
+  "changes": "Reformatted static guidance. Navigation, media, and live data are outside this text edition. Linked resources may require internet access. HTML main text extracted. Images, styling, and interactive content were omitted.",
+  "rights": "NWS-authored text is in the U.S. public domain under the NWS disclaimer: https://www.weather.gov/disclaimer",
+  "rights_checked_on": "2026-11-19",
+  "extraction": "permitted",
+  "redistribution": "permitted",
+  "conditions": "Credit NOAA and the National Weather Service. This independent reformatting is not an official NWS publication and implies no endorsement.",
+  "extracted_at": "2026-11-19T03:07:35+00:00",
+  "outputs": {
+    "markdown": {
+      "filename": "nws-during-a-tornado.md",
+      "kind": "converted"
+    },
+    "txt": {
+      "filename": "nws-during-a-tornado.txt",
+      "kind": "converted"
+    },
+    "epub": {
+      "filename": "nws-during-a-tornado.epub",
+      "kind": "converted"
+    },
+    "pdf": {
+      "filename": "nws-during-a-tornado.pdf",
+      "kind": "converted"
+    },
+    "pdf-phone": {
+      "filename": "nws-during-a-tornado-phone.pdf",
+      "kind": "converted"
+    },
+    "pdf-eink": {
+      "filename": "nws-during-a-tornado-eink.pdf",
+      "kind": "converted"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+**Title** — Finding and Setting Up a Campsite
+
+**By** — U.S. National Park Service
+
+**Source** — https://www.nps.gov/subjects/camping/finding-and-setting-up-a-campsite.htm
+
+**Retrieved from** — https://www.nps.gov/subjects/camping/finding-and-setting-up-a-campsite.htm
+
+**Source edition** — National Park Service web snapshot
+
+**Retrieved at** — 2026-11-19T15:37:07\+00:00
+
+**Extracted at** — 2026-11-19T15:40:07\+00:00
+
+**Source SHA-256** — 72b8efb413e3a03c9e465470707f88b06736ad07af7873209d9e44c61fa8f328
+
+**Scope and changes** — Main article text and source links are rendered. Photographs and site navigation were omitted.
+
+**Rights** — NPS-authored government text under 17 U.S.C. § 105. https://home.nps.gov/aboutus/disclaimer.htm
+
+**Rights checked on** — 2026-11-19
+
+**Extraction** — permitted
+
+**Redistribution** — permitted
+
+**Conditions** — Credit the National Park Service. Independent conversion without agency endorsement.
+
+---
+
+#### Contact Us
+
+# Finding and Setting Up a Campsite
+
+**Before you go, find out about the campground\'s facilities and regulations.** Is there potable water available? Are campfires allowed, and where? What is the maximum group size for a site? Are there showers or flushing toilets? Do you need to store your food in a particular way? Do I need to make a reservation?
+
+## Site Selection & Registration
+
+Every campground is a little bit different, but the process is generally the same. Campgrounds have designated sites that correspond to a number or letter (or some combination of letters and numbers). In frontcountry campgrounds (campgrounds you drive to), typically a small card or piece of paper is clipped to a post to indicate the check-out date for the current occupants. Backcountry (campgrounds you hike to) permits are usually a tag you display on your backpack while hiking, and on your tent while camping. Some sites may be reservable, either by calling the campground or through online reservation systems including [Recreation.gov](https://www.recreation.gov/), while other sites within a campground may be available by a first-come, first-served system.
+
+Before you go, check your park\'s website for information about passes and fees. Entrance passes are required at most national parks and recreation sites. You can purchase passes in person at most parks or [online](https://www.nps.gov/planyourvisit/passes.htm).
+
+## Which Campsite is the Best?
+
+Because most national park camping is done in established campgrounds, picking the right site for you depends on your taste, but there are a few factors to consider whether you\'re frontcountry or backcountry camping.
+
+- Be aware of potential hazards like flash flooding, lightning, wind and dead trees/branches around your campsite.
+- <span style="line-height: 1.42857;">In the backcountry, avoid staying on ledges or high peaks where wind and lightning could become a hazard.</span>
+- <span style="line-height: 1.42857;">Look up; if you see dead branches overhead, you should not camp under them.</span>
+- <span style="line-height: 1.42857;">Do you want to be near the bathroom or shower house for convenience, or farther away, where it\'s quieter and darker?</span>
+- <span style="line-height: 1.42857;">Do you need to park an RV? Do you need electrical hook-ups?</span>
+
+## How to Lay Out a Campsite
+
+Most frontcountry campgrounds are well defined. A frontcountry site will usually have a parking space, a fire ring or grill, and a picnic table. You may be able to move the picnic table around a bit, but for the most part, the first big decision upon arriving at your campsite is where to put your tent and your cooking station.
+
+<span style="line-height: 1.42857;">First, walk the boundaries of your campsite to identify the best locations for your tent, cooking station, and eating station. Maintaining a safe distance between these three parts of your campsite will keep your area safer and more comfortable. Keep all food stored away from rodents and other wildlife.</span>
+
+<span style="line-height: 1.42857;">Some parks have designated backcountry camping sites, but some do not. When there are no designated sites, it is up to you to find a spot within the camping area a park has defined. Here are things to consider when picking a spot:</span>\
+
+- <span style="line-height: 1.42857;">Sheltered and away from the middle of a field if there is a lightning storm and from the edge of cliffs.</span>
+- <span style="line-height: 1.42857;">Away from dead trees that might fall.</span>
+- <span style="line-height: 1.42857;">Away from ravines that might flood.</span>
+
+**When camping in bear country:**\
+
+- <span style="line-height: 1.42857;">Keep 200 feet between a cooking space and sleeping space. </span>
+- <span style="line-height: 1.42857;">Always store food at least 200 feet from your sleeping space.</span>
+- <span style="line-height: 1.42857;">Do not sleep in clothes used during cooking.</span>
+- <span style="line-height: 1.42857;">Check park regulations for proper food storage; many parks require a bear box or bag. </span>
+
+<span style="line-height: 1.42857;">An ideal location for your tent is on level ground, but not a low place, and a safe distance from your fire ring and cooking area. Sparks from your fire could melt holes in your tent (or ignite it altogether), and the stakes and lines coming off your tent could become tripping hazards if they\'re near a high-traffic area. </span>
+
+<span style="line-height: 1.42857;">Make camp before dark. Learn the terrain during daylight. If you have to leave camp after dark, stay in areas you have seen in daylight, go with a companion, and use a headlamp.</span>
+
+## Set Up A Tent
+
+- <span style="line-height: 1.42857;">Find a large, flat place to put your tent, and remove any sticks, rocks, pinecones, or other debris from the area. These objects are not only uncomfortable to sleep on, they may puncture your tent.</span>
+- <span style="line-height: 1.42857;">Avoid low and sunken areas on the ground ground \-- they can become extremely wet when it rains.</span>
+- <span style="line-height: 1.42857;">Orient the tent so that your head will be on the uphill side while you are sleeping.</span>
+- <span style="line-height: 1.42857;">Some tents come with a groundcloth or \"footprint\" upon which you will set up the tent. If your tent does not have one included, a waterproof tarp will also work - just be sure to fold any excess tarp under, or else it will collect water rather than repel it. Lay down the groundcloth, then set up your tent according to your manufacturer\'s instructions.</span><span style="line-height: 1.42857;"> </span>
+
+## RVs and Campers
+
+RV and towed campers are more than welcome at national parks that can accommodate them. RV and towed camper sites vary from park to park (i.e., pull-through campsites, back-in campsites), and there could be space issues with slide-outs. Always check with the park you are visiting for size restrictions and the number of sites that can accommodate RVs and towed campers. Visitors should be responsible for understanding how to drive and operate a RV or camper. If you are renting a RV or camper to bring to a park, be sure you are familiar with how to drive and operate it.
+
+Last updated: December 2, 2020
+
+### Tools
+
+- [Site Index](https://www.nps.gov/subjects/camping/siteindex.htm)

@@ -1,0 +1,42 @@
+{
+  "title": "What to Do to Protect Yourself During a Power Outage",
+  "credit": "CDC",
+  "source_url": "https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+  "retrieved_from": "https://portugues.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html",
+  "edition": "CDC web page dated August 26, 2026",
+  "retrieved_at": "2026-11-19T02:53:43+00:00",
+  "sha256": "8b4f5b0d703b0b2be973aeec0879bb65b0eaca6cc5cc992ef95cf11de9d1d8e2",
+  "changes": "Agency article text, lists, cautions, and substantive captions reflowed. Site controls, illustration images, and styling were omitted. Source links are retained.",
+  "rights": "CDC-authored public-domain text under CDC agency materials terms: https://www.cdc.gov/other/agencymaterials.html",
+  "rights_checked_on": "2026-11-19",
+  "extraction": "permitted",
+  "redistribution": "permitted",
+  "conditions": "Source: CDC. The agency material is available free of charge from CDC. Use of this material does not imply endorsement by CDC, ATSDR, HHS, or the United States Government. The agency text is reproduced without substantive edits.",
+  "extracted_at": "2026-11-19T03:00:58+00:00",
+  "outputs": {
+    "markdown": {
+      "filename": "cdc-power-outage.md",
+      "kind": "converted"
+    },
+    "txt": {
+      "filename": "cdc-power-outage.txt",
+      "kind": "converted"
+    },
+    "epub": {
+      "filename": "cdc-power-outage.epub",
+      "kind": "converted"
+    },
+    "pdf": {
+      "filename": "cdc-power-outage.pdf",
+      "kind": "converted"
+    },
+    "pdf-phone": {
+      "filename": "cdc-power-outage-phone.pdf",
+      "kind": "converted"
+    },
+    "pdf-eink": {
+      "filename": "cdc-power-outage-eink.pdf",
+      "kind": "converted"
+    }
+  }
+}

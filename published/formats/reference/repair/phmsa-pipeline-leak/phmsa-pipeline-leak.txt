@@ -1,0 +1,73 @@
+Title — Recognizing and Responding to Pipeline Emergencies
+
+By — U.S. Department of Transportation PHMSA
+
+Source — https://primis.phmsa.dot.gov/stakeholder-comms/emergencyresponse/
+
+Retrieved from — https://primis.phmsa.dot.gov/stakeholder-comms/emergencyresponse/
+
+Source edition — PHMSA Stakeholder Communications page
+
+Retrieved at — 2026-11-19T03:05:53+00:00
+
+Extracted at — 2026-11-19T03:10:04+00:00
+
+Source SHA-256 — 76b4c2af76e436a5779ffa6d6f996f526058dd520767833e9a51359ae11d8d32
+
+Scope and changes — A text rendering of the PHMSA companion article. It includes the public guidance for recognizing and responding to suspected pipeline releases. Navigation and decorative media were omitted.
+
+Rights — Federal agency text, 17 U.S.C. § 105. https://uscode.house.gov/us/usc/t17/s105/
+
+Rights checked on — 2026-11-19
+
+Extraction — permitted
+
+Redistribution — permitted
+
+Conditions — Credit the publishing federal agency. Independent conversion without agency endorsement.
+
+------------------------------------------------------------------------
+
+Recognizing and Responding to Natural Gas Emergencies in Your Home or Workplace:
+
+If you notice the distinctive “rotten egg” smell of odorized natural gas, follow these DO’s and DONT’s.
+
+DO NOT!
+
+- Start an engine of any kind;
+- Strike matches or create a flame of any kind;
+- Use a telephone or cell phone (these can ignite airborne gases);
+- Turn on or off any light switches, garage door openers or other electrical switches (these also can ignite airborne gases).
+
+DO!
+
+- Make sure gas appliances are turned all the way OFF;
+- Leave the area;
+- Telephone 911 from a neighbor’s house or other location well away from the gas leak;
+- Explain the situation;
+- Warn others — if it is safe to do so — against entering the leak area and/or creating ignition sparks.
+
+Recognizing Emergencies Near a Pipeline Right-of-Way:
+
+Remember that pipelines carry both gases and hazardous liquids. Along a right-of-way, you may see dead or discolored vegetation, pooled liquid; or a cloud of vapor or mist. You may smell an unusual odor, or the scent of petroleum or odorized natural gas. And you may hear an unusual hissing or roaring sound.
+
+If you suspect a pipeline leak has occurred:
+
+DO NOT!
+
+- Touch, breathe or make contact with leaking liquids;
+- Start an engine of any kind;
+- Strike matches or create a flame of any kind;
+- Use a telephone or cell phone (these can ignite airborne gases);
+- Turn on or off any electrical switches (these also can ignite airborne gases);
+- Drive into a leak or vapor cloud area.
+
+DO!
+
+- Make sure gas appliances are turned all the way OFF;
+- Leave the area;
+- Telephone 911 from a neighbor’s house or other location well away from the gas leak;
+- Explain the situation;
+- Warn others — if it is safe to do so — against entering the leak area and/or creating ignition sparks.
+
+Disclaimer: Links to web sites outside of the Department of Transportation (DOT) are offered for your convenience in accessing related information. Please be aware that when you exit the Office of Pipeline Safety (OPS) web site, the privacy policy stated on our web site may NOT be the same as that on other web sites. OPS takes no responsibility for and exercises no control over the organization, views, or accuracy of the information contained on their servers.

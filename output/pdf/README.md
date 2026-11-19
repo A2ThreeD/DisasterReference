@@ -14,4 +14,4 @@ Use the publisher’s PDF when available. Store it as supplied, with its origina
 
 When a companion is used for offline reading, the index shows its actual title and keeps the catalog page available through the source link. The report records both titles and the exact copy used.
 
-Git tracks this layout and its documentation. The generated collection is stored locally. Review rights and redistribution conditions per item before publishing any bundle. See [extraction and provenance](../../docs/extraction.md).
+Git tracks this layout and its documentation. The complete local collection is stored here. The [public export directory](../../published/README.md) contains copies with documented redistribution terms. Review rights and redistribution conditions per item before publishing any bundle. See [extraction and provenance](../../docs/extraction.md).

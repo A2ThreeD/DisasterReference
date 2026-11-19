@@ -1,0 +1,42 @@
+{
+  "title": "How do I find, download, or order topographic maps?",
+  "credit": "USGS",
+  "source_url": "https://www.usgs.gov/faqs/how-do-i-find-download-or-order-topographic-maps",
+  "retrieved_from": "https://www.usgs.gov/faqs/how-do-i-find-download-or-order-topographic-maps",
+  "edition": "Publisher web snapshot",
+  "retrieved_at": "2026-11-18T22:35:40+00:00",
+  "sha256": "fc3ff331bf296ea383d942e38ae25eda4f8f2ccfd944d15b8f13e9cf823e5946",
+  "changes": "USGS instructions and links are preserved. The linked map viewers, ordering tools, and geographic downloads require internet access.",
+  "rights": "USGS-authored text and graphics are U.S. public domain unless credited otherwise. https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+  "rights_checked_on": "2026-11-19",
+  "extraction": "permitted",
+  "redistribution": "permitted",
+  "conditions": "Credit the U.S. Geological Survey. Independent conversion without agency endorsement.",
+  "extracted_at": "2026-11-19T03:08:42+00:00",
+  "outputs": {
+    "markdown": {
+      "filename": "usgs-download-topo-maps.md",
+      "kind": "converted"
+    },
+    "txt": {
+      "filename": "usgs-download-topo-maps.txt",
+      "kind": "converted"
+    },
+    "epub": {
+      "filename": "usgs-download-topo-maps.epub",
+      "kind": "converted"
+    },
+    "pdf": {
+      "filename": "usgs-download-topo-maps.pdf",
+      "kind": "converted"
+    },
+    "pdf-phone": {
+      "filename": "usgs-download-topo-maps-phone.pdf",
+      "kind": "converted"
+    },
+    "pdf-eink": {
+      "filename": "usgs-download-topo-maps-eink.pdf",
+      "kind": "converted"
+    }
+  }
+}

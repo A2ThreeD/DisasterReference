@@ -1,0 +1,36 @@
+{
+  "title": "Flooded Homes Cleanup Guidance",
+  "credit": "EPA",
+  "source_url": "https://www.epa.gov/flooded-homes",
+  "retrieved_from": "https://www.epa.gov/flooded-homes",
+  "edition": "Publisher web snapshot",
+  "retrieved_at": "2026-11-18T22:04:54+00:00",
+  "sha256": "a3ccb49accfa125eacc5a0764c6a7dc5f1f6e2d665feae7dccd70cec10276cea",
+  "changes": "The EPA overview and three linked chapters are included. Static text, cautions, and resource links are preserved. Interactive features, illustrations, and videos remain at the EPA source pages.",
+  "rights": "EPA-authored federal text under 17 U.S.C. § 105. EPA site policy: https://www.epa.gov/web-policies-and-procedures/epa-disclaimers",
+  "rights_checked_on": "2026-11-19",
+  "extraction": "permitted",
+  "redistribution": "permitted",
+  "conditions": "Credit the publishing federal agency. Independent conversion without agency endorsement.",
+  "additional_sources": [
+    {
+      "url": "https://www.epa.gov/flooded-homes/coming-home",
+      "sha256": "cf530a72ba9facbb7e2f819b0a989e4ff2bf2ed9d42e9aee12bb8c14cbd923db",
+      "retrieved_at": "2026-11-19T03:05:52+00:00",
+      "title": "Coming Home"
+    },
+    {
+      "url": "https://www.epa.gov/flooded-homes/protecting-your-health",
+      "sha256": "3fbdcb3aed35b282b836f467fb59f05fad3e0eb1a95924a490187eb17a1a53cc",
+      "retrieved_at": "2026-11-19T03:05:52+00:00",
+      "title": "Protecting Your Health"
+    },
+    {
+      "url": "https://www.epa.gov/flooded-homes/doing-it-yourself",
+      "sha256": "dc45c834755bcf4d7c1cd95a774ad1ad92602da8cecd4ef736c264c5aff387fe",
+      "retrieved_at": "2026-11-19T03:05:52+00:00",
+      "title": "Doing it Yourself"
+    }
+  ],
+  "extracted_at": "2026-11-19T03:08:41+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Build A Kit",
+  "credit": "FEMA Ready.gov",
+  "source_url": "https://www.ready.gov/kit",
+  "retrieved_from": "https://kiwix.tader.nl/content/www.ready.gov_en_2024-12/www.ready.gov/kit",
+  "edition": "December 2024 Ready.gov snapshot in Kiwix",
+  "retrieved_at": "2026-11-19T02:35:52+00:00",
+  "sha256": "73ac15ca75ed0703a6fae4704a55853ec24eacd13c24a70a1a88207acbabfbcf",
+  "changes": "Agency article text, lists, cautions, and substantive captions reflowed. Site controls, illustration images, and styling were omitted. Source links are retained.",
+  "rights": "Ready.gov emergency preparedness text attributed to FEMA. U.S. Government work basis: https://uscode.house.gov/us/usc/t17/s105/",
+  "rights_checked_on": "2026-11-19",
+  "extraction": "permitted",
+  "redistribution": "permitted",
+  "conditions": "Credit the publishing federal agency. Independent conversion without agency endorsement. The December 2024 Ready.gov snapshot is identified on the cover.",
+  "extracted_at": "2026-11-19T03:00:56+00:00",
+  "outputs": {
+    "markdown": {
+      "filename": "ready-gov-build-a-kit.md",
+      "kind": "converted"
+    },
+    "txt": {
+      "filename": "ready-gov-build-a-kit.txt",
+      "kind": "converted"
+    },
+    "epub": {
+      "filename": "ready-gov-build-a-kit.epub",
+      "kind": "converted"
+    },
+    "pdf": {
+      "filename": "ready-gov-build-a-kit.pdf",
+      "kind": "converted"
+    },
+    "pdf-phone": {
+      "filename": "ready-gov-build-a-kit-phone.pdf",
+      "kind": "converted"
+    },
+    "pdf-eink": {
+      "filename": "ready-gov-build-a-kit-eink.pdf",
+      "kind": "converted"
+    }
+  }
+}

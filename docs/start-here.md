@@ -52,15 +52,15 @@ Start with a household kit and a plan for evacuation, sheltering, and staying in
 ### Repair
 
 - Assess hazards before flood cleanup. [EPA Flooded Homes Cleanup Guidance](https://www.epa.gov/flooded-homes)
-- Recognize and report a suspected gas pipeline leak. [PHMSA pipeline leak guide](https://www.phmsa.dot.gov/safety-awareness/pipeline/pipeline-leak-recognition-and-what-do)
-- Identify electrical equipment that needs replacement or professional review after water damage. [ESFI Water-Damaged Electrical Equipment](https://www.esfi.org/water-damaged-electrical-equipment/)
+- Recognize and report a suspected gas pipeline leak. [PHMSA pipeline leak guide](https://www.phmsa.dot.gov/safety-awareness/pipeline/pipeline-leak-recognition-and-what-do) · [PHMSA public response companion](https://primis.phmsa.dot.gov/stakeholder-comms/emergencyresponse/)
+- Identify electrical equipment that needs replacement or professional review after water damage. [ESFI Water-Damaged Electrical Equipment](https://www.esfi.org/water-damaged-electrical-equipment/) · [Water-damaged electrical equipment graphic (PDF)](https://www.esfi.org/wp-content/uploads/2017/06/ESFI-Submerged-Equipment-2025.pdf)
 - Check mold cleanup guidance after a disaster. [Federal guide for homeowners and renters (EPA-hosted PDF)](https://www.epa.gov/sites/default/files/2017-08/documents/mold._homeowners_and_renters_guide_to_cleanup_after_disasters.pdf)
 
 ### Communication
 
 - Make a printable household contact plan. [FEMA family communication plan (PDF)](https://www.weather.gov/media/afc/Hydro/FloodSafety/family-communication-plan_fillable-card.pdf)
-- Find the local weather radio broadcast. [NOAA Weather Radio](https://www.weather.gov/nwr/)
-- Understand official emergency alerts on your phone. [National Weather Service Wireless Emergency Alerts](https://www.weather.gov/wrn/wea)
+- Find the local weather radio broadcast. [NOAA Weather Radio](https://www.weather.gov/nwr/) · [NOAA Weather Radio brochure (PDF)](https://www.weather.gov/media/pah/Skywarn/noaaweatherradiobrochure.pdf)
+- Understand official emergency alerts on your phone. [National Weather Service Wireless Emergency Alerts](https://www.weather.gov/wrn/wea) · [NWS Wireless Emergency Alerts fact sheet (PDF)](https://www.weather.gov/media/wrn/WEA-factsheet-2021-final.pdf)
 
 ### Power and Energy
 
@@ -73,14 +73,14 @@ Start with a household kit and a plan for evacuation, sheltering, and staying in
 
 - Download topographic maps before going offline. [USGS map download guide](https://www.usgs.gov/faqs/how-do-i-find-download-or-order-topographic-maps)
 - Identify U.S. Topo map symbols. [USGS map symbol guide](https://www.usgs.gov/ngp-standards-and-specifications/us-topo-cartographic-specifications-map-symbol-guide)
-- Practice following compass bearings. [National Park Service compass course](https://www.nps.gov/teachers/classrooms/compass-course.htm)
+- Practice following compass bearings. [National Park Service compass course](https://www.nps.gov/teachers/classrooms/compass-course.htm) · [National Park Service compass lesson plan (PDF)](https://www.nps.gov/buff/learn/education/classrooms/upload/Compass_Course_508.pdf)
 - Plan what to do if someone gets lost or injured outdoors. [NPS Outdoor Emergency Plan (PDF)](https://www.nps.gov/subjects/healthandsafety/upload/NPS-Outdoor-Emergency-Plan-508c.pdf)
 
 ### Education & Skills
 
 - Study community emergency response. [FEMA CERT Basic Training Participant Manual (PDF)](https://www.govinfo.gov/content/pkg/GOVPUB-HS5_100-PURL-gpo185734/pdf/GOVPUB-HS5_100-PURL-gpo185734.pdf)
-- Find hands-on bleeding-control training. [American College of Surgeons training guide](https://www.stopthebleed.org/get-trained/)
-- Practice making a kit with children. [CDC Ready Wrigley activity booklet (PDF)](https://www.cdc.gov/natural-disasters/media/pdfs/2026/02/RWBuildsEmergency-Kit-Booklet-P.pdf)
+- Find hands-on bleeding-control training. [American College of Surgeons training guide](https://www.stopthebleed.org/get-trained/) · [Publisher handouts](https://www.stopthebleed.org/get-trained/posters/)
+- Practice making a kit with children. [CDC Ready Wrigley activity booklet (PDF)](https://www.cdc.gov/natural-disasters/media/pdfs/2026/02/RWBuildsEmergency-Kit-Booklet-P.pdf) · [Alternate CDC host (PDF)](https://portugues.cdc.gov/natural-disasters/media/pdfs/2026/02/RWBuildsEmergency-Kit-Booklet-P.pdf)
 
 ## Additional references
 

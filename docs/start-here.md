@@ -34,7 +34,7 @@ Start with a household kit and a plan for evacuation, sheltering, and staying in
 - Store emergency drinking water. [CDC emergency water supply guide](https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html)
 - Find emergency drinking-water treatment guidance. [CDC emergency water fact sheet (PDF)](https://www.cdc.gov/water-emergency/media/pdfs/make-water-safe-during-emergency-p.pdf)
 - Check refrigerated and frozen food after an outage. [FoodSafety.gov outage charts (PDF)](https://www.in.gov/localhealth/portercounty/files/Food-Safety-During-Power-Outage-_-FoodSafety.gov.pdf)
-- Look up household hygiene when running water is disrupted. [CDC emergency personal hygiene](https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html) · [Survival Codex access copy](https://survivalcodex.com/pages/library/cdc-personal-hygiene-emergency)
+- Look up household hygiene when running water is disrupted. [CDC emergency personal hygiene](https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html) · [Alternate CDC host](https://portugues.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html)
 - Find tested home food preservation guidance. [USDA Complete Guide to Home Canning (PDF)](https://growappalachia.berea.edu/wp-content/uploads/2021/04/USDA-Complete-Guide-to-Home-Canning-2015-revision-1.pdf)
 
 ### Survival & Shelter
@@ -54,7 +54,7 @@ Start with a household kit and a plan for evacuation, sheltering, and staying in
 - Assess hazards before flood cleanup. [EPA Flooded Homes Cleanup Guidance](https://www.epa.gov/flooded-homes)
 - Recognize and report a suspected gas pipeline leak. [PHMSA pipeline leak guide](https://www.phmsa.dot.gov/safety-awareness/pipeline/pipeline-leak-recognition-and-what-do)
 - Identify electrical equipment that needs replacement or professional review after water damage. [ESFI Water-Damaged Electrical Equipment](https://www.esfi.org/water-damaged-electrical-equipment/)
-- Check mold cleanup guidance after a disaster. [CDC guide for homeowners and renters (PDF)](https://stacks.cdc.gov/view/cdc/40919/cdc_40919_DS1.pdf) · [Survival Codex access copy](https://survivalcodex.com/cdn/shop/files/survival-codex-library-cdc-homeowners-renters-guide-mold-cleanup-after-disasters.pdf?v=13958321298282540252)
+- Check mold cleanup guidance after a disaster. [Federal guide for homeowners and renters (EPA-hosted PDF)](https://www.epa.gov/sites/default/files/2017-08/documents/mold._homeowners_and_renters_guide_to_cleanup_after_disasters.pdf)
 
 ### Communication
 
@@ -67,7 +67,7 @@ Start with a household kit and a plan for evacuation, sheltering, and staying in
 - Find guidance for hazards during a blackout. [CDC power outage guide](https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html)
 - Make a household plan for an outage and recovery. [Red Cross Power Outage Safety](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/power-outage.html)
 - Plan for medical equipment that needs electricity. [FDA home-use medical device booklet (PDF)](https://www.fda.gov/media/80782/download)
-- Find carbon monoxide prevention and recognition guidance. [CDC Carbon Monoxide Poisoning Basics](https://www.cdc.gov/carbon-monoxide/about/index.html) · [Survival Codex access copy](https://survivalcodex.com/pages/library/cdc-carbon-monoxide-poisoning-basics)
+- Find carbon monoxide prevention and recognition guidance. [CDC Carbon Monoxide Poisoning Basics](https://www.cdc.gov/carbon-monoxide/about/index.html) · [Alternate CDC host](https://portugues.cdc.gov/carbon-monoxide/about/index.html)
 
 ### Offline Maps
 

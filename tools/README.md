@@ -21,7 +21,7 @@ python -m pip install -r tools/requirements.txt
 python tools/convert.py downloads/example.html --metadata source.json --format epub --output build/example.epub
 ```
 
-The [extraction specification](../docs/extraction.md) lists the metadata fields and the local review required for the resulting text. Trafilatura extracts Markdown from HTML. Poppler extracts text from PDF by page. Pandoc and Typst render the output. Keep the source and the provenance JSON sidecar with the converted file. Start with Markdown to inspect an extraction before rendering it again.
+The [extraction specification](../docs/extraction.md) lists the metadata fields and the local review required for the resulting text. PDF modes add a **Disaster Reference Library** source page and a repeating title, source, and page-number footer. Trafilatura extracts Markdown from HTML. Poppler extracts text from PDF by page. Pandoc and Typst render the output. Keep the source and the provenance JSON sidecar with the converted file. Start with Markdown to inspect an extraction before rendering it again.
 
 | Mode | Output | Use |
 | --- | --- | --- |

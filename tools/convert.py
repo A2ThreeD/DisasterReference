@@ -19,10 +19,12 @@ import pypandoc
 import trafilatura
 import typst
 
-PDF_PROFILES = {
-    "pdf": "paper: \"us-letter\", margin: 18mm",
-    "pdf-phone": "width: 90mm, height: 160mm, margin: 6mm",
-    "pdf-eink": "width: 56mm, height: 93.33mm, margin: 4mm",
+PDF_MODES = ("pdf", "pdf-phone", "pdf-eink")
+PDF_LAYOUT = Path(__file__).with_name("pdf_layout.typ")
+REDISTRIBUTION_NOTES = {
+    "permitted": "Redistribution is permitted under the recorded conditions.",
+    "prohibited": "The recorded terms prohibit redistribution.",
+    "unverified": "Redistribution permission has not been verified.",
 }
 RIGHTS_STATES = {"permitted", "prohibited", "unverified"}
 HEADER_FIELDS = {
@@ -119,15 +121,52 @@ def sanitize_document(node):
     return node
 
 
+def render_pdf(payload, provenance, mode, workdir, destination, has_body):
+    content = pypandoc.convert_text(
+        payload, "typst", format="json",
+        extra_args=["--standalone", "--syntax-highlighting=none", "--template", str(PDF_LAYOUT)],
+    )
+    document = workdir / "document.typ"
+    document.write_text(content, encoding="utf-8")
+    retrieved = datetime.fromisoformat(provenance["retrieved_at"]).astimezone(timezone.utc)
+    converted = datetime.fromisoformat(provenance["extracted_at"]).astimezone(timezone.utc)
+    dates = f"Retrieved {retrieved:%b %d, %Y}. Converted {converted:%b %d, %Y} (UTC)."
+    source_url = provenance["source_url"]
+    access_url = provenance["retrieved_from"]
+    access_match = re.match(r"https?://([^/?#]+)", access_url)
+    access_label = access_match.group(1) if access_match and access_url != source_url else ""
+    inputs = {
+        "mode": mode,
+        "title": provenance["title"],
+        "credit": provenance["credit"],
+        "source-url": source_url,
+        "source-display": source_url,
+        "access-url": access_url,
+        "access-label": access_label,
+        "edition": provenance["edition"].rstrip("."),
+        "dates": dates,
+        "changes": provenance["changes"],
+        "rights": provenance["rights"],
+        "reuse": REDISTRIBUTION_NOTES[provenance["redistribution"]],
+        "conditions": provenance["conditions"],
+        "has-body": "yes" if has_body else "no",
+    }
+    # Long source URLs and uninterrupted strings must wrap on narrow pages.
+    for key in ("title", "credit", "source-display", "access-label", "edition", "changes", "rights", "conditions"):
+        inputs[key] = re.sub(r"(\S{18})(?=\S)", r"\1" + "\u200b", " ".join(inputs[key].split()))
+    typst.compile(document, output=destination, root=workdir, sys_inputs=inputs)
+
+
 def render(body, provenance, mode, workdir, destination):
-    fields = []
-    for key, label in HEADER_FIELDS.items():
-        value = " ".join(provenance[key].split())
-        if mode in PDF_PROFILES:
-            value = re.sub(r"(\S{18})(?=\S)", r"\1" + "\u200b", value)
-        fields.append(f"**{label}** — {literal(value)}")
-    header = "\n\n".join(fields)
-    markdown = f"{header}\n\n---\n\n{body}"
+    pdf = mode in PDF_MODES
+    markdown = body
+    if not pdf:
+        fields = [
+            f"**{label}** — {literal(' '.join(provenance[key].split()))}"
+            for key, label in HEADER_FIELDS.items()
+        ]
+        header = "\n\n".join(fields)
+        markdown = f"{header}\n\n---\n\n{body}"
     if mode == "markdown":
         destination.write_text(markdown.rstrip() + "\n", encoding="utf-8")
         return
@@ -144,30 +183,14 @@ def render(body, provenance, mode, workdir, destination):
             extra_args=["--metadata", f"title={provenance['title']}"],
         )
     else:
-        template = workdir / "layout.typ"
-        template.write_text(
-            f"#set page({PDF_PROFILES[mode]})\n"
-            "#set text(size: 10pt)\n"
-            "#set par(justify: false)\n"
-            "#set table(inset: 3pt)\n"
-            "#let horizontalrule = line(length: 100%)\n"
-            "$body$\n",
-            encoding="utf-8",
-        )
-        content = pypandoc.convert_text(
-            payload, "typst", format="json",
-            extra_args=["--standalone", "--syntax-highlighting=none", "--template", str(template)],
-        )
-        document = workdir / "document.typ"
-        document.write_text(content, encoding="utf-8")
-        typst.compile(document, output=destination, root=workdir)
+        render_pdf(payload, provenance, mode, workdir, destination, bool(body.strip()))
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("source", type=Path)
     parser.add_argument("--metadata", type=Path, required=True)
-    parser.add_argument("--format", choices=["markdown", "txt", "epub", *PDF_PROFILES], default="markdown")
+    parser.add_argument("--format", choices=["markdown", "txt", "epub", *PDF_MODES], default="markdown")
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     expected_suffix = {"markdown": ".md", "txt": ".txt", "epub": ".epub"}.get(args.format, ".pdf")

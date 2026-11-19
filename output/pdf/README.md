@@ -9,6 +9,6 @@ A local PDF export of [the recommended catalog](../../catalog/recommended.csv) l
 | `index.pdf` | Printable index with local paths and online source links. |
 | `export-report.csv` | Export status, provenance, and source links for every recommended entry. |
 
-Publisher PDFs and printable access copies retain their original pages, diagrams, and form fields. Converted pages have a visible source and rights header plus a provenance JSON file. Download and convert using the [local tools](../../tools/README.md). Keep the original format whenever a conversion would omit information needed for offline use, such as a map legend or an interactive worksheet. When a printable copy is unavailable, keep the source link in the report.
+Publisher PDFs and printable access copies retain their original pages, diagrams, and form fields. Converted PDFs open with a Disaster Reference Library source page and have title, source, and page-number footers. Each has a provenance JSON file. Download and convert using the [local tools](../../tools/README.md). Keep the original format whenever a conversion would omit information needed for offline use, such as a map legend or an interactive worksheet. When a printable copy is unavailable, keep the source link in the report.
 
 Git tracks this layout and its documentation. The generated collection is stored locally. Review rights and redistribution conditions per item before publishing any bundle. See [extraction and provenance](../../docs/extraction.md).

@@ -1,6 +1,6 @@
 # Offline extraction and provenance
 
-Every extracted document starts with a visible provenance header. Render it before the body in TXT, Markdown, HTML, and EPUB. Store the same fields in the export manifest so reviewers and tools can inspect them without opening each document.
+Every extracted document starts with visible provenance. Render the compact header before the body in TXT, Markdown, HTML, and EPUB. PDFs use the source page described below. Store the full fields in the provenance sidecar and export manifest so reviewers and tools can inspect them without opening each document.
 
 The following is a template. Replace placeholders with recorded values.
 
@@ -20,6 +20,13 @@ Extraction: <permitted, prohibited, or unverified>
 Redistribution: <permitted, prohibited, or unverified>
 Conditions: <required credit, license terms, or limits>
 ```
+
+## PDF export layout
+
+- Open every converted PDF with a source page headed **Disaster Reference Library**. Give the original document title the largest type. Put the author or publisher immediately below it and link to the canonical source.
+- Use short labeled sections in plain language. **About this copy** identifies the source edition, retrieval and conversion dates, and any changes or omissions. **Source and reuse** describes attribution, reuse conditions, and the recorded redistribution decision. Link to an alternate retrieval site when used. Keep exact URLs, timestamps, checksums, and the complete rights record in the JSON provenance sidecar.
+- Put the document title, credited source, and sequential export page number in a legible footer on every page, including the source page. Body content starts after the provenance. On narrow layouts, lengthy provenance may continue onto another page before the body.
+- Preserve publisher PDFs kept as source copies. When a converted PDF includes original agency pages, place the footer outside the original artwork and preserve the source page numbering and contents.
 
 ## Input metadata for the converter
 

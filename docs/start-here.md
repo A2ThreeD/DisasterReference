@@ -45,8 +45,9 @@ Start with a household kit and a plan for evacuation, sheltering, and staying in
 
 **Find or make shelter**
 
+- **Core.** Choose a site and build a tarp, brush, debris, or snow shelter. [Building Wilderness Shelter (illustrated PDF)](../published/pdf/reference/survival-shelter/building-wilderness-shelter.pdf)
 - Choose a safer site for an outdoor shelter. [NPS Finding and Setting Up a Campsite](https://www.nps.gov/subjects/camping/finding-and-setting-up-a-campsite.htm)
-- Build a temporary tarp or improvised shelter. [Scouting America Wilderness Survival, shelter section (PDF)](https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Wilderness%20Survival.pdf#page=25)
+- Read the source pamphlet for more wilderness survival guidance. [Scouting America Wilderness Survival, shelter section (PDF)](https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Wilderness%20Survival.pdf#page=25)
 - Keep a room warm during a heating outage. [Utah Emergency Management Shelter at Home in the Cold](https://dem.utah.gov/shelter-at-home-in-the-cold/)
 - Find a shelter that is open now during an evacuation. [Red Cross live shelter locator](https://www.redcross.org/get-help/disaster-relief-and-recovery-services/find-an-open-shelter.html)
 

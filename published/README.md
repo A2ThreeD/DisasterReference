@@ -1,6 +1,6 @@
 # PrepperCache - Disaster Reference Library
 
-This public collection contains 25 PDFs. 15 entries also include Markdown, TXT, EPUB, and device-sized PDFs. The [publication review](publication-review.csv) lists every selected source and its rights decision. The [Start Here guide](../docs/start-here.md) includes live and link-only resources.
+This public collection contains 26 PDFs. 15 entries also include Markdown, TXT, EPUB, and device-sized PDFs. The [publication review](publication-review.csv) lists every selected source and its rights decision. The [Start Here guide](../docs/start-here.md) includes live and link-only resources.
 
 ## Prepare Beforehand
 
@@ -20,6 +20,7 @@ This public collection contains 25 PDFs. 15 entries also include Markdown, TXT, 
 
 ## Survival & Shelter
 
+- **Core.** [Building Wilderness Shelter (illustrated PDF)](pdf/reference/survival-shelter/building-wilderness-shelter.pdf)
 - [During a Flood (PDF)](pdf/reference/survival-shelter/nws-during-a-flood.pdf) · [Format bundle](formats/reference/survival-shelter/nws-during-a-flood/)
 - [Flood Safety Tips and Resources (PDF)](pdf/reference/survival-shelter/nws-flood-safety.pdf) · [Format bundle](formats/reference/survival-shelter/nws-flood-safety/)
 - [What to Do During a Tornado (PDF)](pdf/reference/survival-shelter/nws-during-a-tornado.pdf) · [Format bundle](formats/reference/survival-shelter/nws-during-a-tornado/)

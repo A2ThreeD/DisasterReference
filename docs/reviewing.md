@@ -1,6 +1,6 @@
 # Maintainer review
 
-Use [the human review log](../catalog/reviews.csv) to record Aaron Morris's review or another review authorized by the maintainer. Enter one row per review and keep previous decisions as history. The log starts empty.
+Use [the human review log](../catalog/reviews.csv) to record Aaron Morris's review or another review authorized by the maintainer. Enter one row per review and keep previous decisions as history.
 
 | Column | Meaning |
 | --- | --- |

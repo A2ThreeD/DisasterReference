@@ -25,7 +25,7 @@ Open the [first readings by task and category](docs/start-here.md) for the initi
 - [Roadmap](docs/roadmap.md) covers the initial research and offline exports.
 - [Contributor and agent instructions](AGENTS.md) apply to work in this repository.
 
-The initial catalog contains publisher-checked candidates and evidence from public project material. The core tier is pending editorial review. The repository catalogs third-party references by link. Rights for source documents and derived exports must be tracked per resource.
+The initial catalog contains publisher-checked candidates and evidence from public project material. The core tier includes the maintainer-selected [Building Wilderness Shelter guide](published/pdf/reference/survival-shelter/building-wilderness-shelter.pdf). The repository catalogs third-party references by link. Rights for source documents and derived exports must be tracked per resource.
 
 ## Contribute a source
 

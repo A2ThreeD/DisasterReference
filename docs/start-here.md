@@ -64,7 +64,7 @@ Start with a household kit and a plan for evacuation, sheltering, and staying in
 
 ### Power and Energy
 
-- Find guidance for hazards during a blackout. [CDC power outage guide](https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html)
+- Find guidance for hazards during a blackout. [CDC power outage guide](https://www.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html) · [Alternate CDC host](https://portugues.cdc.gov/natural-disasters/response/what-to-do-protect-yourself-during-a-power-outage.html)
 - Make a household plan for an outage and recovery. [Red Cross Power Outage Safety](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/power-outage.html)
 - Plan for medical equipment that needs electricity. [FDA home-use medical device booklet (PDF)](https://www.fda.gov/media/80782/download)
 - Find carbon monoxide prevention and recognition guidance. [CDC Carbon Monoxide Poisoning Basics](https://www.cdc.gov/carbon-monoxide/about/index.html) · [Alternate CDC host](https://portugues.cdc.gov/carbon-monoxide/about/index.html)
